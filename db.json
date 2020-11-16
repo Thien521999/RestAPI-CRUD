@@ -1,0 +1,21 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "img": "images/1.png",
+      "name": "Tự Học Lập Trình PHP",
+      "description": "Kiến thức cơ bản dành cho người mới"
+    },
+    {
+      "name": "Học lập tình Reactjs ",
+      "img": "images/2.png",
+      "description": "Thiết kế được layout web, bạn còn sẽ có nền tảng vững chắc để tiếp cận React Native (Mobile App) mà không cần phải mất nhiều thời gian.",
+      "id": 2
+    },
+    {
+      "name": "Javascript",
+      "description": "Học javascript từ cơ bản đến nâng cao",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vendor/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <div class="khoahoc">
+            <h2>Danh sách khóa học</h2>
+            
+            <ul id="list-courses">
+                <li class="course"></li>
+            </ul>
+        </div>
+    
+        <div class="create">
+            <div>
+                <label>Name</label>
+                <input class="name" type="text" name="name" placeholder="Tên khóa học">
+            </div>
+           
+            <div>
+                <label>Description</label>
+                <input type="text" name="description" placeholder="Mô tả khóa học">
+            </div>
+            <div>
+                <button class="btn btn-success" id="create">CREATE</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
